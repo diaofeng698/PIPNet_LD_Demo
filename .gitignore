@@ -3,5 +3,4 @@
 *.png
 *.avi
 *.mp4
-snapshots/
 __pycache__/
