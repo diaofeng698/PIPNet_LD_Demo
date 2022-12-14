@@ -190,8 +190,9 @@ def demo_video(video_file, net, preprocess, input_size, net_stride, num_nb, use_
     net.eval()
 
     if video_file == 'camera':
-        cap = cv2.VideoCapture("/home/fdiao/Videos/test/sun0/DMS_20221024_sun0_xbx.mp4")
+        cap = cv2.VideoCapture(0)
     else:
+        # "/home/fdiao/Videos/test/sun0/DMS_20221024_sun0_xbx.mp4"
         cap = cv2.VideoCapture(video_file)
     if (cap.isOpened() == False):
         print("Error opening video stream or file")
