@@ -4,3 +4,6 @@
 *.avi
 *.mp4
 __pycache__/
+*.o
+*.so
+cpu_nms.c
